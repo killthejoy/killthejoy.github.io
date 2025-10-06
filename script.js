@@ -13,6 +13,11 @@ const noResults = document.getElementById('no-results');
 
 // Embedded trainer data (local)
 const trainers = [
+    {
+    title: "CULTIC Complete Edition *Plus 3 Trainer*",
+    source: "CULTIC.Complete.Edition-TENOKE",
+    link: "trn/cultic_complete_edition_plus_3_trainer-killjoy.zip"
+  },
   {
     title: "GTA San Andreas DE v1.17.37984884 *Plus 5 Trainer*",
     source: "Grand_Theft_Auto_San_Andreas_The_Definitive_Edition_v1.17.37984884-Razor1911",
@@ -55,3 +60,4 @@ search.addEventListener('input', () => {
   renderTrainers(filtered);
   noResults.style.display = filtered.length ? 'none' : 'block';
 });
+
